@@ -2,15 +2,23 @@ export default {
   global: {
     componenteFormativo: 'Escalado digital',
     descripcionCurso:
-      'Al  finalizar todo el proceso de patronaje hasta el punto de prototipado se lleva a cabo el proceso de escalado, este se realiza después de la verificación y validación de los moldes que se quieren trabajar, el escalado se puede trabajar de manera digital o manual, en cualquiera de los dos casos siempre se debe tener como punto de partida el cuadro de tallas para poder hacer el análisis detallado de las prendas, cada empresa, marca o industria trabaja medidas, análisis y cuadros de tallas diferentes, lo que hace necesario el reconocimiento de estas.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+      'Este componente formativo aborda la logística en operaciones comerciales en <em>retail</em>, enfocándose en conocimientos relacionados con la gestión de almacenes, incluyendo recibo, despacho y manejo de datos, así como el tratamiento el tratamiento del envase, empaque y embalaje en <em>picking</em> y <em>packing</em>, carga y sus conceptos asociados, además su relación con las Buenas Prácticas de Manufactura (BPM) y la normativa técnica de SST .',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    /*imagenesDecorativasBanner: [
+    imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
-    ],*/
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -28,53 +36,86 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Escalado manual de prendas',
+        titulo: 'Almacenamiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Escalado de falda',
+            titulo: 'Recibo',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Escalado de base con pinzas - superior',
+            titulo: 'Despacho',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Escalado de básico de pantalón',
+            titulo: 'Datos',
             hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo: 'Escalado cortes, manga, cuello',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Base superior masculina - análisis de escalado bibásico',
-            hash: 't_1_5',
-          },
-          {
-            numero: '1.6',
-            titulo:
-              'Análisis y construcción de cuadro de tallas masculino - dxt',
-            hash: 't_1_6',
-          },
-          {
-            numero: '1.7',
-            titulo: 'Modificación de moldes - análisis sobre medidas',
-            hash: 't_1_7',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Escalado en Optitex',
+        titulo: '<em>Picking</em> y <em>Packing</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Envase',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Empaque',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Embalaje',
+            hash: 't_2_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Carga',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Unitarización',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Desunitarización',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Rotulación',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Cubicaje',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Buenas Prácticas de Manufactura (BPM)',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Normativa técnica en seguridad y salud en el trabajo',
+            hash: 't_3_6',
+          },
+        ],
       },
     ],
     subMenu: [
