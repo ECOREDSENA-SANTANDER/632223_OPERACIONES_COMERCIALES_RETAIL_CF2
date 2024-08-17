@@ -230,12 +230,60 @@
         .col-lg-4.col-8.order-lg-2.order-2(data-aos="fade-right")
           img(src="@/assets/curso/tema3/img25.svg")
         
+    
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema2/iconot.svg', alt='')
+        h3.mb-0.ms-2 Implementación y operación  
+  
+    p.mb-4 Para comenzar con la implementación de un Sistema de Gestión de Seguridad y Salud en el Trabajo se deben seguir las siguientes etapas: 
 
-
-
-
-
-
+    .row.justify-content-center.align-items-center 
+      .col-lg-4.col-md-10.col-10
+        img(src="@/assets/curso/tema3/img26.png")
+      .col-lg-8.col-md-12.col-12
+        .bg8.p-4
+          SlyderF(columnas="col-lg-12 col-md-12 col-12")
+            .tarjeta.tarjeta--slyder.blanco.p-3
+              .row.justify-content-center.align-items-center(titulo="Aseguramiento de la calidad")
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/tema3/img27.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Evaluación inicial
+                  p.mb-4 Debe incluir, entre otros, los siguientes aspectos, la identificación de la normatividad vigente en materia de riesgos laborales, y en los estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo para los trabajadores, que se reglamentan y se aplican.
+            .tarjeta.tarjeta--slyder.blanco.p-3
+              .row.justify-content-center.align-items-center(titulo="Aseguramiento de la calidad")
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/tema3/img28.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Detección y análisis de riesgos
+                  p.mb-4 Son técnicas que se emplean para evaluar los riesgos de un proyecto o un proceso. Estos métodos ayudan a tomar decisiones que permiten implementar medidas de prevención para evitar peligros potenciales o reducir su impacto. Por tal motivo no existe una única metodología de riesgos.
+            .tarjeta.tarjeta--slyder.blanco.p-3
+              .row.justify-content-center.align-items-center(titulo="Aseguramiento de la calidad")
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/tema3/img29.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Definición de las políticas y los objetivos
+                  p.mb-4 Consiste en una declaración de principios y compromisos que promuevan mejorar continuamente las condiciones de seguridad y salud dentro de la organización, como elemento de calidad.
+            .tarjeta.tarjeta--slyder.blanco.p-3
+              .row.justify-content-center.align-items-center(titulo="Aseguramiento de la calidad")
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/tema3/img30.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Capacitación
+                  p.mb-4 Es un instrumento importante que contiene las metodologías y estrategias de formación, encaminadas a proporcionar al trabajador los conocimientos y destrezas necesarias para desempeñar su labor asegurando la prevención de accidentes y el nivel de riesgos.
+            .tarjeta.tarjeta--slyder.blanco.p-3
+              .row.justify-content-center.align-items-center(titulo="Aseguramiento de la calidad")
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(src='@/assets/curso/tema3/img31.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Respuesta ante emergencias
+                  p.mb-4 Es el modo de acción que toda compañía debe de llevar a cabo en caso de que se demuestren situaciones de riesgo, minimizando los posibles peligros que se podrían desencadenar sobre las personas y demás espacios de la organización. 
 
 
 
