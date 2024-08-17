@@ -254,19 +254,82 @@
                 i.fas.fa-car-side.camisa
                 p.mb-0 Clases de embalaje según su función.
     
+    
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema2/iconot.svg', alt='')
+        h3.mb-0.ms-2 Base inferior falda femenina
 
+    p.mb-4 El embalaje primario es el que está en contacto directo con el producto. No solo cumple una función de contención, sino que también lo protege del exterior, convirtiéndose en la primera capa de protección. Este tipo de embalaje, también conocido como embalaje minorista o principal, cumple una función comercial importante al atraer y persuadir al consumidor.
+    p.mb-4 El #[b embalaje primario es la primera carta de presentación del producto, ayudando a impulsar la compra.] Un embalaje atractivo puede ofrecer una ventaja competitiva al destacar frente a otros productos en el mercado.
+    p.mb-4 A continuación, se presentan algunos ejemplos: 
 
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-6.col-lg-4.mb-3
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img27.svg' alt='')
+          .tarjeta.r.bg2.pe-lg-4
+            .p-5
+              h5.text-center El tarro de plástico de una crema hidratante.
+    
+      .col-md-6.col-lg-4.mb-3
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img28.svg' alt='')
+          .tarjeta.r.bg3.pe-lg-4
+            .p-5
+              h5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La lata de un refresco.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+      .col-md-6.col-lg-4.mb-3
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img29.svg' alt='')
+          .tarjeta.r.bg3.pe-lg-4
+            .p-5
+              h5.text-center La botella de vidrio que contiene un vino.
 
-
-
-
-
-
-
-
-
-
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-8.col-md-12.col-12
+        .cajon.color-secundario.p-4
+          p.mb-0 En definitiva, el embalaje primario podría definirse como el #[b envoltorio pensado para constituir una unidad del punto de venta] que va a adquirir un consumidor final. 
+    
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema2/iconot.svg', alt='')
+        h3.mb-0.ms-2 Embalaje secundario 
+    
+    p.mb-0 El embalaje secundario cumple varios objetivos y funciones. 
+    
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-6.col-lg-6.mb-3
+        .tarjeta-avatar
+          img.my-5(src='@/assets/curso/tema2/img30.svg' alt='')
+          .tarjeta.bg2
+            .p-5
+              h5.text-center.my-5.mb-4.mx-5 A nivel logístico
+              p.text-center.mx-5 Facilita el almacenamiento y transporte de los productos. 
+      .col-md-6.col-lg-6.mb-3
+        .tarjeta-avatar
+          img.my-5(src='@/assets/curso/tema2/img31.svg' alt='')
+          .tarjeta.bg3
+            .p-5
+              h5.text-center.my-5.mb-4 A nivel comercial
+              p.text-center Puede utilizarse con fines publicitarios y de exhibición en superficies como supermercados y tiendas minoristas. 
+    
+    p.mb-4 En ocasiones, el embalaje secundario se superpone con el embalaje primario e incluso con el terciario. Un ejemplo claro de este tipo de embalaje es la caja de cartón que mantiene juntas varias unidades de leche formando un paquete.
+    
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema2/iconot.svg', alt='')
+        h3.mb-0.ms-2 Embalaje terciario
+    
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+      .col-lg-8.col-md-12.col-12
+        p.mb-4 El embalaje terciario agrupa productos que ya poseen embalaje primario y secundario. Permite consolidar cargas de productos de forma segura y facilita su manejo. Las empresas utilizan este tipo de embalaje en sus procesos de distribución y envíos, independientemente del tipo de producto. Un ejemplo común es la paletización, donde se organizan diferentes cajas de productos con separadores y plástico envolvente .
+        .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+          .col-lg-12.col-md-12.col-12
+            .cajon.color-secundario.p-4
+              p.mb-0 Los tres tipos de embalaje guardan una estrecha relación entre ellos y con los distintos eslabones de la cadena de suministro. El embalaje primario está más relacionado con los consumidores finales, mientras que el secundario y el terciario se utilizan principalmente en los procesos de distribución entre fabricantes y distribuidores. 
+      .col-lg-4.col-md-10.col-10
+        img(src="@/assets/curso/tema2/img32.png")
 
 
 
