@@ -15,7 +15,7 @@
         .cajon.color-secundario.p-4
           p.mb-0 Un almacén bien gestionado requiere un buen registro y gestión de las existencias de los productos que en él se depositan. Es necesario fijar un volumen mínimo de productos existentes, conocer la cantidad de productos que rotan y cuándo se debe solicitar, así como los costos que se generan por la realización del pedido y del almacenamiento.
           
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-12.col-md-12.col-12
         .titulo-sexto.color-secundario
           h5 Figura 1. 
@@ -31,7 +31,7 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Tipos
         img.icon.d-none.d-lg-block(src='@/assets/curso/tema1/icon.svg') 
 
-    p.mb-4 Un retail, es una infraestructura para el acopio de productos dentro de la cadena de suministro, en tal sentido, son espacios físicos que cubren el periodo entre los flujos de entrada y de salida. Se podría afirmar, que los progresos tecnológicos han organizado una necesaria clasificación de los tipos de almacenamiento a los que se pueden identificar en función de los materiales y sus características. 
+    p.mb-4 Un #[em retail], es una infraestructura para el acopio de productos dentro de la cadena de suministro, en tal sentido, son espacios físicos que cubren el periodo entre los flujos de entrada y de salida. Se podría afirmar, que los progresos tecnológicos han organizado una necesaria clasificación de los tipos de almacenamiento a los que se pueden identificar en función de los materiales y sus características. 
     p.mb-4 Los siguientes tipos de almacenamiento son los más acostumbrados: 
     
     .row.fondo1.align-items-center.p-3.mb-5
@@ -71,7 +71,7 @@
             .row.justify-content-center.p-4
               .col-lg-7.col-12.my-3
                 h4.mb-4 Almacenamiento de refacciones
-                p.mb-3 Son los artículos destinados a corregir o reparar las unidades que ya han estado en manos de los consumidores. Si bien las incidencias de este tipo son mínimas, los retail siempre deben disponer de material en almacén para las peticiones y necesidades de último momento.
+                p.mb-3 Son los artículos destinados a corregir o reparar las unidades que ya han estado en manos de los consumidores. Si bien las incidencias de este tipo son mínimas, los #[em retail] siempre deben disponer de material en almacén para las peticiones y necesidades de último momento.
               .col-lg-4.col-12
                 img(alt="" src="@/assets/curso/tema1/img7.png")
     
@@ -80,7 +80,7 @@
         .cajon.color-acento-contenido.p-4
           p.mb-0 El  
             strong.ro almacenamiento    
-            | es una función que va mucho más allá de la labor de acopio en un retail, detrás, hay un estudio detallado de las características de cada producto y de las condiciones propias de su proceso de almacenamiento. 
+            | es una función que va mucho más allá de la labor de acopio en un #[em retail], detrás, hay un estudio detallado de las características de cada producto y de las condiciones propias de su proceso de almacenamiento. 
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
@@ -128,7 +128,7 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Procedimiento
         img.icon.d-none.d-lg-block(src='@/assets/curso/tema1/icon.svg')
 
-    p.mb-5 La principal función del proceso de recepción de mercancía es la de garantizar al retail, la correcta y eficiente entrada de productos para atender las necesidades de los clientes internos y externos. A continuación, se identifican los siguientes tipos de productos: 
+    p.mb-5 La principal función del proceso de recepción de mercancía es la de garantizar al #[em retail], la correcta y eficiente entrada de productos para atender las necesidades de los clientes internos y externos. A continuación, se identifican los siguientes tipos de productos: 
 
     .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -297,7 +297,7 @@
     #t_1_2.titulo-segundo.color-secundario
       h2 1.2 Despacho 
     
-    p.mb-4 En logística, el despacho representa el proceso de último contacto que tiene producto con el almacén, antes de ser entregado al cliente o distribuidor. Este proceso es gestionado por parte del responsable de bodega quien supervisa la entrada y salida de productos del retail, y tiene como función principal el control de inventarios y recepción de mercancías. 
+    p.mb-4 En logística, el despacho representa el proceso de último contacto que tiene producto con el almacén, antes de ser entregado al cliente o distribuidor. Este proceso es gestionado por parte del responsable de bodega quien supervisa la entrada y salida de productos del #[em retail], y tiene como función principal el control de inventarios y recepción de mercancías. 
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
@@ -437,7 +437,7 @@
                   i.fas.fa-circle-check
                   p.mb-0 Envía la factura de los servicios prestados al generador de carga.
     
-    .row.justify-content-center.mb-5(data-aos="fade-down")
+    .row.justify-content-center(data-aos="fade-down")
       .col-md-6.col-lg-6.mb-3
         .tarjeta-avatar
           img.my-5(src='@/assets/curso/tema1/img24.svg' alt='')
@@ -475,7 +475,7 @@
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-8.col-md-12.col-12
         .cajon.color-acento-contenido.p-4
-          p.mb-0 #[b El análisis de datos es fundamental en el #[em retail]], ya que cada día, a cada hora y minuto, innumerables productos entran y salen de la sala de ventas. Con datos incorrectos, un #[em retail] que hace una suposición errónea puede perjudicar el control de su inventario. #[b Para aprovechar mejor el poder de los datos, las empresas de retail necesitan emplear un equipo interno con tecnología avanzada en gestión de datos.]
+          p.mb-0 #[b El análisis de datos es fundamental en el #[em retail]], ya que cada día, a cada hora y minuto, innumerables productos entran y salen de la sala de ventas. Con datos incorrectos, un #[em retail] que hace una suposición errónea puede perjudicar el control de su inventario. #[b Para aprovechar mejor el poder de los datos, las empresas de #[em retail] necesitan emplear un equipo interno con tecnología avanzada en gestión de datos.]
 
 
 

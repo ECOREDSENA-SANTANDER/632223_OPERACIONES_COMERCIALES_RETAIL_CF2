@@ -152,7 +152,7 @@
         img.icon.d-none.d-lg-block(src='@/assets/curso/tema1/icon.svg')
       
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-11.col-md-12.col-12
         p.mb-4 Su aplicación es transversal en todas las fases propias de la producción alimenticia, desde su inicio, transformación y manipulación. Son fundamentales para mantener la inocuidad y seguridad en los productos de consumo humano, siendo sus procedimientos aplicables a todas estas fases, permitiendo un adecuado diseño de la infraestructura fabril, y a su vez de los procesos y operaciones propias de estas fábricas, hasta que el usuario final pueda disponer del producto terminado.
       .col-lg-1
