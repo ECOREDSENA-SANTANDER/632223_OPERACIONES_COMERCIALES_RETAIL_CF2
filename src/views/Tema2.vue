@@ -22,7 +22,7 @@
           .col-lg-10
             p.mb-4 El 
               strong.ro #[em packing]
-              | , por otro lado, es una actividad que representa el embalaje. Consiste en preparar los productos recolectados durante la fase de picking para su envío. Esto implica llevar a cabo tareas de empaque, embalaje o envase, asegurando que los productos estén listos para su transporte y entrega. 
+              | , por otro lado, es una actividad que representa el embalaje. Consiste en preparar los productos recolectados durante la fase de #[em picking] para su envío. Esto implica llevar a cabo tareas de empaque, embalaje o envase, asegurando que los productos estén listos para su transporte y entrega. 
       .col-lg-4.col-md-9.col-9
         img(src="@/assets/curso/tema2/img1.svg")
     
@@ -121,7 +121,7 @@
           p.mb-0 Es posible #[b clasificar los envases atendiendo a una infinidad de criterios:] su reciclabilidad, su forma, su resistencia o rigidez, entre otros. 
     
     
-    .row.fondo2.align-items-center.p-3
+    .row.fondo2.align-items-center.p-3.mb-0
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-0(data-aos="fade-down")
 
