@@ -44,6 +44,8 @@
 .banner-principal__row 
     justify-content: space-around
 
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+    color: black
 
 
 
@@ -68,8 +70,8 @@
   border-radius: 0px 0px 50px 0px
 
 .icon 
-    max-width: 35px
-    left: 70px
+    max-width: 30px
+    left: 55px
     position: absolute
 
 
@@ -89,8 +91,9 @@
   display: block
   margin: auto
 
-.tarjeta
+.tarjetaf
   background-color: #fff
+  border-radius: 18px
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
     width: 50px
@@ -98,10 +101,13 @@
     background-color: #FFDC39
     border-radius: 50%
 
+.slyder-a__bullets__item 
+    background-color: #AAC9E9
+    border-color: #AAC9E9
 .slyder-a__bullets__item--active 
-    background-color: #0D66BF
-    border-color: #727997
-    opacity: 1
+    background-color: #0D66BF !important
+    border-color: #0D66BF !important
+
 
 .ro
   color: red
@@ -130,17 +136,15 @@
   bottom: 0
   transition: all .5s ease-in-out
   transform: translateY(calc(100% - 3.85rem))
-
 .crd_hover_txt:hover .crd_hover_txt--body
   transition: all .5s ease-in-out
   transform: translateY(0)
   background-color: #0D66BF !important
 .crd_hover_txt:hover .crd_hover_txt--body *
   color: #fff !important
-
-
 .colt
   background-color: #FF725D
+
 
 .mh-375
   min-height: 420px
@@ -197,7 +201,7 @@
 
 .tabs-c.color-primario .tabs-c__tab--active 
     border-bottom-color: #FF725D !important
-    font-weight: 900;
+    font-weight: 900
 
 .tabs-c.color-primario .tabs-c__tab--active:before 
     border-top-color: #FF725D
@@ -222,7 +226,7 @@
 
 .fondo2
   background: url('../assets/curso/tema2/fondo2.png')
-  background-size: 100% 89%
+  background-size: 100% 92%
   background-repeat: no-repeat
   background-position: center 
   margin-inline: -3.4rem
@@ -230,9 +234,11 @@
     margin-inline: -1.4rem
 
 .fas.fa-car-side.camisa:before 
-    content: "\f553"
-    color: #1448D3
+  content: url('../assets/curso/tema2/icon.svg')
+  
 
+.fas.fa-car-side.camisaa:before 
+  content: url('../assets/curso/tema2/ico.svg')
 
 .bg7
   background-color: #FFD4CE !important 
@@ -286,3 +292,43 @@
 
 .fa-chevron-left:before 
     content: url('../assets/curso/tema3/izq.svg')
+
+.sub
+  img
+    width: 9px
+  h3
+    color: black
+
+  
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 12px
+        height: 12px
+        margin: 0px 1px
+
+@media (max-width: 768px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 45px
+    height: 45px
+
+
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+    content:  url('../assets/curso/tema3/der.svg')
+    transform: rotate(0deg)
+
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+    transform: rotate(0deg)
+    content:  url('../assets/curso/tema3/izq.svg')
+
+
+.tarjeta.bg34
+  grid-column: span 4
+  display: flex
+  background-color: #53BCED
+  border-radius: 18px
+
+.tarjeta.bg35
+  grid-column: span 4
+  display: flex
+  background-color: #FF725D
+  border-radius: 18px

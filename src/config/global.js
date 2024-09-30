@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Escalado digital',
+    componenteFormativo: 'Logística comercial',
     descripcionCurso:
       'Este componente formativo aborda la logística en operaciones comerciales en <em>retail</em>, enfocándose en conocimientos relacionados con la gestión de almacenes, incluyendo recibo, despacho y manejo de datos, así como el tratamiento el tratamiento del envase, empaque y embalaje en <em>picking</em> y <em>packing</em>, carga y sus conceptos asociados, además su relación con las Buenas Prácticas de Manufactura (BPM) y la normativa técnica de SST .',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -125,12 +125,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      /*{
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },*/
+      },
       /*{
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',

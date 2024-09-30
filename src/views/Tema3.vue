@@ -12,7 +12,7 @@
         p.mb-4 Una carga es el conjunto de mercancías transportadas en un vehículo o manipuladas mediante equipos de manutención, como carretillas o grúas.
         p.mb-4 La naturaleza, cantidad, forma, volumen y peso de las mercancías, entre otras características físicas, determinan los diferentes tipos de cargas. 
         p.mb-4 Estos factores influyen significativamente en la elección del vehículo adecuado para su transporte, así como en la necesidad de preparar y asegurar la mercancía mediante envases, embalajes o elementos de sujeción. 
-      .col-lg-4.col-md-10.col-10
+      .col-lg-4.col-md-9.col-9
         img(src="@/assets/curso/tema3/img1.png")
     
     separador
@@ -20,11 +20,11 @@
       h2 3.1 Unitarización
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
-      .col-lg-4.col-md-10.col-10
+      .col-lg-4.col-md-9.col-9.mb-4
         img(src="@/assets/curso/tema3/img2.png")
-      .col-lg-8.col-md-12.col-12
+      .col-lg-8.col-md-12.col-12.mb-0
         p.mb-4 La unitarización es el proceso que busca preservar la integridad de cada producto mediante la organización y agrupación de mercancías para su protección y facilitar su transporte. Este proceso simplifica y unifica productos de menor tamaño al colocarlos sobre una base de madera, plástico o metal, formando unidades de carga más grandes y manejables. 
-        p.mb-4 La unitarización no solo protege los productos durante el transporte, sino que también optimiza el espacio y mejora la eficiencia logística, reduciendo el tiempo y los costos asociados a la manipulación y almacenamiento de mercancías.  
+        p.mb-0 La unitarización no solo protege los productos durante el transporte, sino que también optimiza el espacio y mejora la eficiencia logística, reduciendo el tiempo y los costos asociados a la manipulación y almacenamiento de mercancías.  
         
     separador
     #t_3_2.titulo-segundo.color-secundario
@@ -34,29 +34,29 @@
       .col-lg-8.col-md-12.col-12
         p.mb-4 La desunitarización ocurre cuando los productos o elementos están separados, formando lo que se conoce como carga suelta. Para convertir esta carga suelta en unidades manejables, se utilizan dispositivos unitarizadores, que consolidan la carga en contenedores u otras unidades de transporte. Estos dispositivos permiten agrupar los productos mediante accesorios que facilitan su manipulación, almacenamiento y transporte como una unidad de carga independiente.
         p.mb-4 Este proceso es crucial para optimizar la logística, mejorando la eficiencia en el manejo y transporte de mercancías, y asegurando que los productos lleguen en buen estado a su destino final.  
-      .col-lg-4.col-md-10.col-10
+      .col-lg-4.col-md-9.col-9
         img(src="@/assets/curso/tema3/img3.png")
 
     separador
     #t_3_3.titulo-segundo.color-secundario
       h2 3.3 Rotulación
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-4.col-md-10.col-10
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+      .col-lg-4.col-md-9.col-9.mb-4
         img(src="@/assets/curso/tema3/img4.png")
-      .col-lg-8.col-md-12.col-12
+      .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 La rotulación se refiere al uso de códigos y etiquetas que designan y describen un producto. Además, la rotulación puede incluir carteles o vallas publicitarias, donde se utilizan combinaciones de letras, tamaños y formas diversas para garantizar la legibilidad tanto de cerca como de lejos. 
-        p.mb-4 En logística, la rotulación es esencial para la identificación precisa y el seguimiento de productos, facilitando su manejo, almacenamiento y transporte. Una rotulación clara y efectiva asegura que la información crítica sobre el contenido, destino y manejo del producto esté siempre visible y comprensible.
+        p.mb-2 En logística, la rotulación es esencial para la identificación precisa y el seguimiento de productos, facilitando su manejo, almacenamiento y transporte. Una rotulación clara y efectiva asegura que la información crítica sobre el contenido, destino y manejo del producto esté siempre visible y comprensible.
     
     .row.justify-content-center.align-items-center(data-aos="fade-down")
       .col-md-12.col-lg-8.mb-3
         .mb-5.d-flex
-          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Normas Técnicas Internacionales 
-            img.icon.d-none.d-lg-block(src='@/assets/curso/tema1/icon.svg')
+          .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
+            h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Normas Técnicas Internacionales 
+            img.icon(src='@/assets/curso/tema1/icon.svg')
         p.mb-4 En la mayoría de los procesos logísticos, existe un marco legal compuesto por documentos normativos y técnicos con cobertura nacional e internacional. Estas normas establecen criterios de calidad y especificaciones técnicas para todos los productos y servicios, así como para sus procesos. Su objetivo es garantizar precisión y consistencia en los métodos de muestreo, registro y auditoría, entre otros, mediante el uso de tecnologías avanzadas. 
-        p.mb-4 En el contexto de la rotulación de productos y mercancías, estas normas aseguran que la información relevante sea clara, precisa y conforme a los estándares internacionales, facilitando así el manejo, identificación y seguimiento de los productos en toda la cadena de suministro.
-      .col-md-10.col-lg-4.mb-3
+        p.mb-0 En el contexto de la rotulación de productos y mercancías, estas normas aseguran que la información relevante sea clara, precisa y conforme a los estándares internacionales, facilitando así el manejo, identificación y seguimiento de los productos en toda la cadena de suministro.
+      .col-md-8.col-8.col-lg-4.mb-3
         img(src='@/assets/curso/tema3/img5.png' alt='')
 
     separador
@@ -64,31 +64,31 @@
       h2 3.4 Cubicaje 
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
-      .col-lg-4.col-md-10.col-10
+      .col-lg-4.col-md-9.col-9.mb-4
         img(src="@/assets/curso/tema3/img6.png")
-      .col-lg-8.col-md-12.col-12
+      .col-lg-8.col-md-12.col-12.mb-0
         p.mb-4 En logística, el cubicaje se refiere al proceso de acomodar mercancías sobre pallets o en medios de transporte como camiones o contenedores. El objetivo principal es maximizar la cantidad de carga transportada, aprovechando al máximo la capacidad del espacio disponible. Para lograrlo, es fundamental respetar siempre las normativas establecidas y las limitaciones técnicas del transporte, como el peso máximo permitido y las dimensiones del vehículo o contenedor.
-        p.mb-4 El cubicaje eficiente no solo optimiza el uso del espacio, sino que también puede reducir costos de transporte y mejorar la eficiencia operativa. Además, una correcta planificación del cubicaje contribuye a la seguridad de la carga durante el transporte, minimizando el riesgo de daños y facilitando una logística más sostenible y efectiva.
+        p.mb-0 El cubicaje eficiente no solo optimiza el uso del espacio, sino que también puede reducir costos de transporte y mejorar la eficiencia operativa. Además, una correcta planificación del cubicaje contribuye a la seguridad de la carga durante el transporte, minimizando el riesgo de daños y facilitando una logística más sostenible y efectiva.
 
     separador
     #t_3_5.titulo-segundo.color-secundario
       h2 3.5 Buenas Prácticas de Manufactura (BPM)
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
+    .row.justify-content-center.align-items-center.mb-2(data-aos="fade-down")
       .col-md-12.col-lg-8.mb-3
         p.mb-4 Las Buenas Prácticas de Manufactura (BPM), son requerimientos estandarizados de higiene en el proceso de elaboración, preparación, manipulación, envasado, almacenamiento, transporte y distribución de alimentos destinados al consumo, con el fin de que estos cumplan con condiciones sanitarias óptimas y minimizando posibles riesgos propios de los procesos.
         .mb-4.d-flex
-          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Características
-            img.icon.d-none.d-lg-block(src='@/assets/curso/tema1/icon.svg')
+          .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
+            h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Características
+            img.icon(src='@/assets/curso/tema1/icon.svg')
         p.mb-4 A continuación, se presentan las características que forman parte de las Buenas Prácticas de Manufactura:
-      .col-md-10.col-lg-4.mb-3
-        img(src='@/assets/curso/tema3/img7.png' alt='')
+      .col-lg-4.mb-3
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/img7.png' alt='')
 
     
     
     .row.justify-content-center.align-items-center 
-      .col-lg-4.col-md-10.col-10
+      .col-lg-4.col-md-8.col-8.mb-4
         img(src='@/assets/curso/tema3/img8.png' alt='')
       .col-lg-8.col-md-12.col-12
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
@@ -143,16 +143,16 @@
                 img(src='@/assets/curso/tema3/img17.svg', alt='Texto que describa la imagen')
             .col-md-9
               p.mb-4 Se refiere al movimiento del producto de un lugar a otro en su recorrido, desde el principio de una cadena de suministro, hasta su entrega al cliente. El transporte es un elemento fundamental y un componente significativo en los costos de la cadena de suministro, rara vez los productos se producen y consumen en el mismo lugar, y su rol reviste mayor importancia en cadenas de suministro globales. 
-      .col-lg-4.col-md-10.col-10
+      .col-lg-4.col-md-8.col-8
         img(src='@/assets/curso/tema3/img9.png' alt='')  
   
     .mb-4.d-flex
-      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Aplicación de las BPM
-        img.icon.d-none.d-lg-block(src='@/assets/curso/tema1/icon.svg')
+      .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
+        h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Aplicación de las BPM
+        img.icon(src='@/assets/curso/tema1/icon.svg')
       
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-11.col-md-12.col-12
         p.mb-4 Su aplicación es transversal en todas las fases propias de la producción alimenticia, desde su inicio, transformación y manipulación. Son fundamentales para mantener la inocuidad y seguridad en los productos de consumo humano, siendo sus procedimientos aplicables a todas estas fases, permitiendo un adecuado diseño de la infraestructura fabril, y a su vez de los procesos y operaciones propias de estas fábricas, hasta que el usuario final pueda disponer del producto terminado.
       .col-lg-1
@@ -163,14 +163,14 @@
       h2 3.6 Normativa técnica en seguridad y salud en el trabajo
     
     .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg-6.mb-3
+      .col-md-12.col-lg-6.mb-2
         .tarjeta-avatar
           img.my-5(src='@/assets/curso/tema3/img19.svg' alt='')
           .tarjeta.bg2
             .p-5
               h5.text-center.my-5.mb-4 Especificaciones técnicas 
               p.text-center La norma ISO 45001 establece la gestión de la seguridad y salud en el trabajo, así como la mejora continua dentro de la organización. Esta norma contribuye a disminuir el índice de lesiones, enfermedades y muertes laborales, separando y gestionando los riesgos relacionados con la seguridad y salud en el trabajo.
-      .col-md-6.col-lg-6.mb-3
+      .col-md-12.col-lg-6.mb-2
         .tarjeta-avatar
           img.my-5(src='@/assets/curso/tema3/img20.svg' alt='')
           .tarjeta.bg3
@@ -236,10 +236,10 @@
         img(src='@/assets/curso/tema2/iconot.svg', alt='')
         h3.mb-0.ms-2 Implementación y operación  
   
-    p.mb-4 Para comenzar con la implementación de un Sistema de Gestión de Seguridad y Salud en el Trabajo se deben seguir las siguientes etapas: 
+    p.mb-3 Para comenzar con la implementación de un Sistema de Gestión de Seguridad y Salud en el Trabajo se deben seguir las siguientes etapas: 
 
     .row.justify-content-center.align-items-center 
-      .col-lg-4.col-md-10.col-10
+      .col-lg-4.col-md-9.col-9.mb-4
         img(src="@/assets/curso/tema3/img26.png")
       .col-lg-8.col-md-12.col-12
         .bg8.p-4
