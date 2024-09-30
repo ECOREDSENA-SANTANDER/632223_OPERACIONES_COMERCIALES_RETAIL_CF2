@@ -121,14 +121,14 @@
           p.mb-0 Es posible #[b clasificar los envases atendiendo a una infinidad de criterios:] su reciclabilidad, su forma, su resistencia o rigidez, entre otros. 
     
     
-    .row.fondo2.align-items-center.p-3.mb-0
-      .col-lg-12.col-md-12.col-12.px-lg-5.px-4
+    .row.fondo2.align-items-center.p-4
+      .col-lg-12.col-md-12.col-12.px-lg-5.px-4.mb-5
         .row.justify-content-center.mb-0(data-aos="fade-down")
 
           .mb-4.d-flex
             .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
               h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Funciones de los envases
-              img.icon(src='@/assets/curso/tema1/icon.svg')
+              img.iconh(src='@/assets/curso/tema1/icon.svg')
 
           p.mb-4 Los envases tienen múltiples funciones, que pueden agruparse entre las principalmente utilitarias y las que aportan un valor añadido al producto.
           
@@ -139,21 +139,23 @@
                 strong.ro Funciones utilitarias: 
                 | estas funciones facilitan la interacción con el producto, por ejemplo:
           .row.justify-content-center.align-items-center.mb-4 
-            .col-lg-3.col-md-6.col-6
+            .col-lg.col-md-6.col-6
               img.img-a.img-t(src='@/assets/curso/tema2/img17.svg', alt='').mb-3
               h4.mb-3.text-center Contener el producto.
-            .col-lg-3.col-md-6.col-6
+            .col-lg.col-md-6.col-6
               img.img-a.img-t(src='@/assets/curso/tema2/img18.svg', alt='').mb-3
               h4.mb-3.text-center Albergar el producto.
-            .col-lg-3.col-md-6.col-6
+            .col-lg.col-md-6.col-6
               img.img-a.img-t(src='@/assets/curso/tema2/img19.svg', alt='').mb-3
               h4.mb-3.text-center Proteger sus cualidades intactas.
-            .col-lg-3.col-md-6.col-6
+            .col-lg.col-md-6.col-6
               img.img-a.img-t(src='@/assets/curso/tema2/img20.svg', alt='').mb-3
               h4.mb-3.text-center Conservar el producto durante más tiempo.
-          
+            .col-lg.col-md-6.col-6
+              img.img-a.img-t(src='@/assets/curso/tema2/uli.svg', alt='').mb-3
+              h4.mb-3.text-center Conservar el producto durante más tiempo.
           .row.justify-content-center.align-items-center
-            .col-lg-8.col-md-12.col-12
+            .col-lg-9.col-md-12.col-12
               ul.lista-ul.ps-0
                 li.d-flex.mb-4
                   i.fas.fa-car-side.camisaa
@@ -173,7 +175,7 @@
                   i.fas.fa-car-side.camisa
                   p.mb-0 #[b Información sobre la empresa:] proporciona datos de contacto y detalles sobre el fabricante.  
             .col-lg-3.col-md-9.col-9
-              img.img-a.img-t(src='@/assets/curso/tema2/img21.svg', alt='').mb-5
+              img.img-a.img-t(src='@/assets/curso/tema2/img21.svg', alt='')
 
     separador
     #t_2_2.titulo-segundo.color-secundario
@@ -245,20 +247,20 @@
             p.mb-0
             ul.lista-ul.ps-0
               li.d-flex.mb-4
-                i.fas.fa-car-side.camisa
+                i.fas.fa-car-side.camisa1
                 p.mb-0 Tipos de embalaje primario, secundario y terciario.
               li.d-flex.mb-4
-                i.fas.fa-car-side.camisa
+                i.fas.fa-car-side.camisa1
                 p.mb-0 Tipos de embalaje según su material. 
               li.d-flex.mb-0
-                i.fas.fa-car-side.camisa
+                i.fas.fa-car-side.camisa1
                 p.mb-0 Clases de embalaje según su función.
     
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/tema2/iconot.svg', alt='')
-        h3.mb-0.ms-2 Base inferior falda femenina
+        h3.mb-0.ms-2 Embalaje primario 
 
     p.mb-4 El embalaje primario es el que está en contacto directo con el producto. No solo cumple una función de contención, sino que también lo protege del exterior, convirtiéndose en la primera capa de protección. Este tipo de embalaje, también conocido como embalaje minorista o principal, cumple una función comercial importante al atraer y persuadir al consumidor.
     p.mb-4 El #[b embalaje primario es la primera carta de presentación del producto, ayudando a impulsar la compra.] Un embalaje atractivo puede ofrecer una ventaja competitiva al destacar frente a otros productos en el mercado.

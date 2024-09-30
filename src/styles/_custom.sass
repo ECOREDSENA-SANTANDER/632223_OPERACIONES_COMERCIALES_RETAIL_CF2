@@ -44,13 +44,8 @@
 .banner-principal__row 
     justify-content: space-around
 
-<<<<<<< HEAD
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
     color: black
-=======
-.banner-interno__fondo
-  content: url('../assets/curso/portada/portada.png')
->>>>>>> f4440c557eab2c00d4880958a63d6a7e397be2ef
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
     color: black
@@ -79,6 +74,11 @@
 .icon 
     max-width: 30px
     left: 55px
+    position: absolute
+
+.iconh
+    max-width: 30px
+    left: 75px
     position: absolute
 
 
@@ -243,6 +243,8 @@
 .fas.fa-car-side.camisa:before 
   content: url('../assets/curso/tema2/icon.svg')
   
+.fas.fa-car-side.camisa1:before 
+  content: url('../assets/curso/tema2/iconop.svg')
 
 .fas.fa-car-side.camisaa:before 
   content: url('../assets/curso/tema2/ico.svg')
@@ -283,8 +285,7 @@
   h3
     color:#0D66BF
 
-.acordion .tarjeta--azull
-    background-color: #FFE3DE
+
 
 .bg8
   background-color: #DCF2FC
@@ -300,7 +301,6 @@
 .fa-chevron-left:before 
     content: url('../assets/curso/tema3/izq.svg')
 
-<<<<<<< HEAD
 .sub
   img
     width: 9px
@@ -340,12 +340,21 @@
   display: flex
   background-color: #FF725D
   border-radius: 18px
-=======
 
 
+.acordion.activo 
+.acordion__activo .acordion__accion__btn--b
+    background-color: #FFE3DE
 
+.acordion__accion__btn--b 
+    border: 1px solid #afafaf
 
-.fas.fa-car-side.camisa:before 
-    content: url('../assets/curso/portada/speak.png')
-  
->>>>>>> f4440c557eab2c00d4880958a63d6a7e397be2ef
+.acordion 
+    .acordion__activo
+      background-color: #FFE3DE!important
+      border-radius: 20px !important
+    .tarjeta--azull
+      background-color: #fff
+      border-bottom: 0.5px solid #D3D3D3 !important
+      border-radius: 0px
+

@@ -71,13 +71,8 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7
                 h4.mb-4 Almacenamiento de refacciones
-<<<<<<< HEAD
                 p.mb-4 Son los artículos destinados a corregir o reparar las unidades que ya han estado en manos de los consumidores. Si bien las incidencias de este tipo son mínimas, los retail siempre deben disponer de material en almacén para las peticiones y necesidades de último momento.
               .col-lg-4.col-md-9.col-12
-=======
-                p.mb-3 Son los artículos destinados a corregir o reparar las unidades que ya han estado en manos de los consumidores. Si bien las incidencias de este tipo son mínimas, los #[em retail] siempre deben disponer de material en almacén para las peticiones y necesidades de último momento.
-              .col-lg-4.col-12
->>>>>>> f4440c557eab2c00d4880958a63d6a7e397be2ef
                 img(alt="" src="@/assets/curso/tema1/img7.png")
     
     .row.justify-content-center.mb-4(data-aos="zoom-in-left")
@@ -85,12 +80,8 @@
         .cajon.color-acento-contenido.p-4
           p.mb-0 El  
             strong.ro almacenamiento    
-<<<<<<< HEAD
             | es una función que va mucho más allá de la labor de acopio en un retail, detrás, hay un estudio detallado de las características de cada producto y de las condiciones propias de su proceso de almacenamiento. 
   
-=======
-            | es una función que va mucho más allá de la labor de acopio en un #[em retail], detrás, hay un estudio detallado de las características de cada producto y de las condiciones propias de su proceso de almacenamiento. 
->>>>>>> f4440c557eab2c00d4880958a63d6a7e397be2ef
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue

@@ -76,7 +76,7 @@
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="fade-down")
       .col-md-12.col-lg-8.mb-3
-        p.mb-4 Las Buenas Prácticas de Manufactura (BPM), son requerimientos estandarizados de higiene en el proceso de elaboración, preparación, manipulación, envasado, almacenamiento, transporte y distribución de alimentos destinados al consumo, con el fin de que estos cumplan con condiciones sanitarias óptimas y minimizando posibles riesgos propios de los procesos.
+        p.mb-5 Las Buenas Prácticas de Manufactura (BPM), son requerimientos estandarizados de higiene en el proceso de elaboración, preparación, manipulación, envasado, almacenamiento, transporte y distribución de alimentos destinados al consumo, con el fin de que estos cumplan con condiciones sanitarias óptimas y minimizando posibles riesgos propios de los procesos.
         .mb-4.d-flex
           .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
             h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Características
@@ -91,7 +91,7 @@
       .col-lg-4.col-md-8.col-8.mb-4
         img(src='@/assets/curso/tema3/img8.png' alt='')
       .col-lg-8.col-md-12.col-12
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
+        AcordionA.acordion.activo(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
           .row.justify-content-center.align-items-center(titulo="Higiene Personal")
             .col-md-3.mb-4.mb-md-0
               figure
@@ -161,6 +161,8 @@
     separador
     #t_3_6.titulo-segundo.color-secundario
       h2 3.6 Normativa técnica en seguridad y salud en el trabajo
+
+    p.mb-0 Se define un Sistema General de Riesgos Laborales como el conjunto de formas, normas y procedimientos destinados a prevenir y proteger a todos los trabajadores frente a enfermedades y accidentes laborales. 
     
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-12.col-lg-6.mb-2
@@ -179,16 +181,16 @@
               p.mb-4 El objetivo es implementar medidas y actividades necesarias para la prevención de riesgos laborales, basándose en:
               ul.lista-ul.ps-0
                 li.d-flex.mb-2
-                  i.fas.fa-car-side.camisa
+                  i.fas.fa-car-side.camisa1
                   p.mb-0 Identificar todos los peligros, evaluar y valorar los riesgos.
                 li.d-flex.mb-2
-                  i.fas.fa-car-side.camisa
+                  i.fas.fa-car-side.camisa1
                   p.mb-0 Establecer los respectivos controles.
                 li.d-flex.mb-2
-                  i.fas.fa-car-side.camisa
+                  i.fas.fa-car-side.camisa1
                   p.mb-0 Proteger la seguridad y salud de todos los trabajadores.
                 li.d-flex.mb-2
-                  i.fas.fa-car-side.camisa
+                  i.fas.fa-car-side.camisa1
                   p.mb-0 Cumplir con la normatividad nacional vigente en materia de riesgos laborales. 
 
     .subt.mb-4(data-aos="fade-right")
