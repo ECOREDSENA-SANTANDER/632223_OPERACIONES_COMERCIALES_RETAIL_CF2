@@ -126,11 +126,11 @@
   content: ''
   position: absolute
   width: 125%
-  height: 70%
   top: 15%
   bottom: 15%
   left: -15%
-  background-size: 100% 100%
+  background-size: cover
+  display: inline-block
 .crd_hover_txt
   position: relative
   padding: 0 !important
@@ -147,10 +147,19 @@
   transition: all .5s ease-in-out
   transform: translateY(0)
   background-color: #0D66BF !important
+  @media (max-width: 768px) 
+    border-radius: 15px
+    display: inline-block !important
+    position: relative
+    width: 100% !important
+    overflow-y: auto !important
 .crd_hover_txt:hover .crd_hover_txt--body *
   color: #fff !important
 .colt
   background-color: #FF725D
+
+
+
 
 
 .mh-375
@@ -195,9 +204,6 @@
     content: "\f058"
     color: #0D66BF
 
-.linea-tiempo-d .tarjeta 
-    border-radius: 5px
-    background-color: #E6E6E6
 
 .bg2
   background-color: #D4EEFB
@@ -330,16 +336,14 @@
 
 
 .tarjeta.bg34
-  grid-column: span 4
-  display: flex
   background-color: #53BCED
   border-radius: 18px
+  width: 100%
 
 .tarjeta.bg35
-  grid-column: span 4
-  display: flex
   background-color: #FF725D
   border-radius: 18px
+  width: 100%
 
 
 .acordion.activo 
@@ -358,3 +362,20 @@
       border-bottom: 0.5px solid #D3D3D3 !important
       border-radius: 0px
 
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #BCE5F8
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #BCE5F8
+    color: black !important
+.linea-tiempo-d .tarjeta 
+    border-radius: 5px
+.tarjeta--gris 
+    background-color: #E6E6E6
+    font-weight: 700
+.linea-tiempo-d__item__dots:after 
+  content: ''
+  display: block
+  width: 0
+  height: 100%
+  border-left: 5px dotted #FF725D

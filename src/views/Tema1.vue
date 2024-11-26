@@ -8,7 +8,7 @@
       h1 Almacenamiento
     
     .row.justify-content-center.align-items-end.mb-4
-      .col-lg-4.col-md-9.col-9.mb-3
+      .col-lg-4.col-md-7.col-7.mb-3
         img.img-a.img-t(src='@/assets/curso/tema1/img1.png', alt='tema1')
       .col-lg-8.col-md-12.col-12.mb-3
         p.mb-4 Actualmente , las empresas desean tener un #[em stock] mínimo funcional en los almacenes y esto va marcado por las tendencias de producción. Al considerar las limitaciones que puede tener el espacio de almacenamiento, el costo que representan estas instalaciones, el movimiento de los productos, entre otras variables, se han ido incorporando nuevas tecnologías para garantizar un stock funcional, en óptimas condiciones y que sea dinámico en su movilidad para evitar elementos obsoletos en el mismo.
@@ -93,7 +93,7 @@
 
     .cont_5_1.mt-4
       .row.justify-content-center
-        .col-lg-6.mb-4.mb-lg-0.col-md-10(data-aos="zoom-in")
+        .col-lg-6.mb-4.mb-lg-0.col-md-10
           .crd_hover_txt
             .crd_hover_txt--img
               figure
@@ -188,9 +188,8 @@
               img.mx-3(alt="" src="@/assets/curso/tema1/img18.svg")
             .col-lg-9.col-md-10.col-10
               h4.mb-0.my-3.text-center Formato para la entrada y salida de materiales
-          .p-0.d-flex.justify-content-center
-            a.d-flex.indicador__container
-              .indicador--click(v-if="mostrarIndicador")
+          
+            
       
       .col-lg-4.col-md-12.col-12(@click="modal3 = true")
         .bag.p-3
@@ -199,9 +198,8 @@
               img.mx-3(alt="" src="@/assets/curso/tema1/img19.svg")
             .col-lg-9.col-md-10.col-10
               h4.mb-0.text-center Factura de nota de remisión 
-          .p-0.d-flex.justify-content-center
-            a.d-flex.indicador__container
-              .indicador--click(v-if="mostrarIndicador")
+          
+              
     ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center.align-items-center
         .col-lg-11.col-md-12.col-12
@@ -252,9 +250,7 @@
               img.mx-3(alt="" src="@/assets/curso/tema1/img20.svg")
             .col-lg-9.col-md-10.col-10
               h4.mb-0.text-center Ficha técnica de producto
-          .p-0.d-flex.justify-content-center
-            a.d-flex.indicador__container
-              .indicador--click(v-if="mostrarIndicador")
+          
     
       .col-lg-4.col-md-12.col-12(@click="modal5 = true")
         .bag.p-3.mb-2
@@ -263,9 +259,7 @@
               img.mx-3(alt="" src="@/assets/curso/tema1/img21.svg")
             .col-lg-9.col-md-10.col-10
               h4.mb-0.text-center Información nutricional
-          .p-0.d-flex.justify-content-center
-            a.d-flex.indicador__container
-              .indicador--click(v-if="mostrarIndicador")
+          
     ModalA(:abrir-modal.sync="modal4")
       .row.justify-content-center.align-items-center
         .col-lg-11.col-md-12.col-12
@@ -369,7 +363,7 @@
                 i.fas.fa-circle-check
                 p.mb-0 Cargue del vehículo y colocación de los sellos de seguridad o su equivalente.
       .col-lg-4(data-aos="fade-left" data-aos-delay="500")
-        figure.m-auto.col-7.col-md-7.col-lg-12
+        figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/img22.png")  
 
     .mb-4.d-flex
@@ -380,7 +374,7 @@
     p.mb-3 En lo que respecta al transporte de la mercancía, se deben considerar los pasos que a continuación se presentan:
 
     .row.justify-content-center.align-items-center
-      .col-lg-4.col-md-9.col-9.mb-4
+      .col-lg-4.col-md-7.col-7.mb-4
         img(src="@/assets/curso/tema1/img23.png")  
       .col-lg-8.col-md-12.col-12
         LineaTiempoD.color-acento-contenido
@@ -470,7 +464,7 @@
         p.mb-4 El proceso de almacenamiento exige una gestión responsable de la información, no solo para asegurar el proceso en sí mismo, sino también para manejar datos precisos que permitan responder a cada requerimiento. Esto hace necesario contar con un sistema de control eficiente.
         p.mb-4 En los centros de distribución se utilizan diversos elementos para el control adecuado de mercancías, como códigos de barras, GPS y RFID. Además, se emplea el EDI (Intercambio Electrónico de Datos), que permite una estructuración normada de datos con altos parámetros de calidad, facilitando un intercambio de información comercial sin ambigüedades.
         p.mb-2 El internet ha sido un medio propicio para las transacciones de negocios, pero esto ha requerido procesos internos más efectivos para responder a la creciente demanda. Esto ha llevado a manejar grandes cantidades de información de forma simultánea, garantizando la efectividad del proceso y permitiendo una toma de decisiones asertiva para lograr una operación eficiente, rápida y oportuna.
-      .col-md-9.col-9.col-lg-4.mb-4
+      .col-md-7.col-7.col-lg-4.mb-4
         img(src='@/assets/curso/tema1/img26.png' alt='')
 
     .row.justify-content-center(data-aos="zoom-in-left")

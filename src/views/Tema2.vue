@@ -23,8 +23,8 @@
             p.mb-4 El 
               strong.ro #[em packing]
               | , por otro lado, es una actividad que representa el embalaje. Consiste en preparar los productos recolectados durante la fase de #[em picking] para su envío. Esto implica llevar a cabo tareas de empaque, embalaje o envase, asegurando que los productos estén listos para su transporte y entrega. 
-      .col-lg-4.col-md-9.col-9
-        img(src="@/assets/curso/tema2/img1.svg")
+      .col-lg-4.col-md-7.col-7
+        img(src="@/assets/curso/tema2/img1.png")
     
     separador
     #t_2_1.titulo-segundo.color-secundario
@@ -43,9 +43,9 @@
     TabsC.color-primario.mb-5(data-aos="zoom-in-left")
       .py-3.py-md-5(titulo="Tapones")
         .row.justify-content-center
-          .col-lg-3.col-md-9.col-9.mb-4
-            img.img-a.img-t(src='@/assets/curso/tema2/img4.svg', alt='')
-          .col-lg-8.col-md-12
+          .col-lg-3.col-md-7.col-7.mb-4
+            img.img-a.img-t(src='@/assets/curso/tema2/img4.png', alt='')
+          .col-lg-8
             p.mb-5 Los tapones son el tipo de cierre por excelencia. Se encuentran en una amplia variedad de envases, como botellas, frascos, viales y tarros. Esta categoría es muy diversa y comprende numerosos tipos de cierres.
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-2.col-md-2
@@ -69,16 +69,16 @@
                 p #[b Vasito dosificador:] muy común en la industria farmacéutica, este tapón sirve también como vasito para dosificar el producto.
       .py-3.py-md-4.bg26.px-3(titulo="Airless")
         .row.justify-content-center
-          .col-lg-3.col-md-9.col-9.my-3
+          .col-lg-3.col-md-7.col-7.my-3
             img.img-a.img-t(src='@/assets/curso/tema2/img5.svg', alt='')
-          .col-lg-8.col-md-12.my-3
+          .col-lg-8.my-3
             p.mb-5 Muy utilizado en envases de cosmética, su diseño permite dispensar el producto en la dosis deseada e impide la entrada de aire, manteniendo las condiciones del producto intactas.
 
       .py-3.py-md-4.bg26.px-3(titulo="Bombas")
         .row.justify-content-center
-          .col-lg-3.col-md-9.col-9.my-3
+          .col-lg-3.col-md-7.col-7.my-3
             img.img-a.img-t(src='@/assets/curso/tema2/img6.svg', alt='')
-          .col-lg-8.col-md-12.my-3
+          .col-lg-8.my-3
             p.mb-5 Los cierres y dispensadores tipo bomba son también muy comunes y se dividen en dos clases:
             .row.justify-content-center.mb-4
               .col-lg-2
@@ -121,61 +121,60 @@
           p.mb-0 Es posible #[b clasificar los envases atendiendo a una infinidad de criterios:] su reciclabilidad, su forma, su resistencia o rigidez, entre otros. 
     
     
-    .row.fondo2.align-items-center.p-4
-      .col-lg-12.col-md-12.col-12.px-lg-5.px-4.mb-5
-        .row.justify-content-center.mb-0(data-aos="fade-down")
+    .row.fondo2.align-items-center.p-4.mb-0
+      .col-lg-12.col-md-12.col-12.px-4
+        .row.justify-content-center(data-aos="fade-down")
 
-          .mb-4.d-flex
-            .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
-              h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Funciones de los envases
-              img.iconh(src='@/assets/curso/tema1/icon.svg')
-
-          p.mb-4 Los envases tienen múltiples funciones, que pueden agruparse entre las principalmente utilitarias y las que aportan un valor añadido al producto.
+        .mb-4.d-flex
+          .d-flex.flex-wrap.align-items-center.pe-0.bg-img-blue
+            h3.col.px-2.mb-0.mx-5.text-white(data-aos="zoom-in-left") Funciones de los envases
+            img.iconh(src='@/assets/curso/tema1/icon.svg')
+        p.mb-4 Los envases tienen múltiples funciones, que pueden agruparse entre las principalmente utilitarias y las que aportan un valor añadido al producto.
           
-          ul.lista-ul.ps-2.mb-4
-            li.d-flex.mb-1
-              i.fas.fa-car-side.camisaa
-              p.mb-0 
-                strong.ro Funciones utilitarias: 
-                | estas funciones facilitan la interacción con el producto, por ejemplo:
-          .row.justify-content-center.align-items-center.mb-4 
-            .col-lg.col-md-6.col-6
-              img.img-a.img-t(src='@/assets/curso/tema2/img17.svg', alt='').mb-3
-              h4.mb-3.text-center Contener el producto.
-            .col-lg.col-md-6.col-6
-              img.img-a.img-t(src='@/assets/curso/tema2/img18.svg', alt='').mb-3
-              h4.mb-3.text-center Albergar el producto.
-            .col-lg.col-md-6.col-6
-              img.img-a.img-t(src='@/assets/curso/tema2/img19.svg', alt='').mb-3
-              h4.mb-3.text-center Proteger sus cualidades intactas.
-            .col-lg.col-md-6.col-6
-              img.img-a.img-t(src='@/assets/curso/tema2/img20.svg', alt='').mb-3
-              h4.mb-3.text-center Conservar el producto durante más tiempo.
-            .col-lg.col-md-6.col-6
-              img.img-a.img-t(src='@/assets/curso/tema2/uli.svg', alt='').mb-3
-              h4.mb-3.text-center Conservar el producto durante más tiempo.
-          .row.justify-content-center.align-items-center
-            .col-lg-9.col-md-12.col-12
-              ul.lista-ul.ps-0
-                li.d-flex.mb-4
-                  i.fas.fa-car-side.camisaa
-                  p.mb-0 
-                    strong.ro Funciones de valor añadido:
-                    |  estas funciones van más allá del sentido práctico y aportan un valor extra, por ejemplo:
-                li.d-flex.mb-1
-                  i.fas.fa-car-side.camisa
-                  p.mb-0 #[b Función estética:] hace que el envase resulte más atractivo para el consumidor y lo prefiera frente a otros productos similares.
-                li.d-flex.mb-1
-                  i.fas.fa-car-side.camisa
-                  p.mb-0 #[b Función de #[em marketing:]] relacionada con cómo se vende o se publicita el producto.
-                li.d-flex.mb-1
-                  i.fas.fa-car-side.camisa
-                  p.mb-0 #[b Etiquetado:] incluye información de gran utilidad sobre el producto y sus características.
-                li.d-flex.mb-1
-                  i.fas.fa-car-side.camisa
-                  p.mb-0 #[b Información sobre la empresa:] proporciona datos de contacto y detalles sobre el fabricante.  
-            .col-lg-3.col-md-9.col-9
-              img.img-a.img-t(src='@/assets/curso/tema2/img21.svg', alt='')
+        ul.lista-ul.ps-2.mb-2
+          li.d-flex.mb-1
+            i.fas.fa-car-side.camisaa
+            p.mb-0 
+              strong.ro Funciones utilitarias: 
+              | estas funciones facilitan la interacción con el producto, por ejemplo:
+        .row.justify-content-center.align-items-center.mb-4 
+          .col-lg.col-md-6.col-6
+            img.img-a.img-t(src='@/assets/curso/tema2/img17.svg', alt='').mb-3
+            h4.mb-3.text-center Contener el producto.
+          .col-lg.col-md-6.col-6
+            img.img-a.img-t(src='@/assets/curso/tema2/img18.svg', alt='').mb-3
+            h4.mb-3.text-center Albergar el producto.
+          .col-lg.col-md-6.col-6
+            img.img-a.img-t(src='@/assets/curso/tema2/img19.svg', alt='').mb-3
+            h4.mb-3.text-center Proteger sus cualidades intactas.
+          .col-lg.col-md-6.col-6
+            img.img-a.img-t(src='@/assets/curso/tema2/img20.svg', alt='').mb-3
+            h4.mb-3.text-center Conservar el producto durante más tiempo.
+          .col-lg.col-md-6.col-6
+            img.img-a.img-t(src='@/assets/curso/tema2/uli.svg', alt='').mb-3
+            h4.mb-3.text-center Conservar el producto durante más tiempo.
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-9.col-md-12.col-12
+            ul.lista-ul.ps-0
+              li.d-flex.mb-4
+                i.fas.fa-car-side.camisaa
+                p.mb-0 
+                  strong.ro Funciones de valor añadido:
+                  |  estas funciones van más allá del sentido práctico y aportan un valor extra, por ejemplo:
+              li.d-flex.mb-1
+                i.fas.fa-car-side.camisa
+                p.mb-0 #[b Función estética:] hace que el envase resulte más atractivo para el consumidor y lo prefiera frente a otros productos similares.
+              li.d-flex.mb-1
+                i.fas.fa-car-side.camisa
+                p.mb-0 #[b Función de #[em marketing:]] relacionada con cómo se vende o se publicita el producto.
+              li.d-flex.mb-1
+                i.fas.fa-car-side.camisa
+                p.mb-0 #[b Etiquetado:] incluye información de gran utilidad sobre el producto y sus características.
+              li.d-flex.mb-1
+                i.fas.fa-car-side.camisa
+                p.mb-0 #[b Información sobre la empresa:] proporciona datos de contacto y detalles sobre el fabricante.  
+          .col-lg-3.col-md-7.col-7
+            img.img-a.img-t.mb-4(src='@/assets/curso/tema2/img21.svg', alt='')
 
     separador
     #t_2_2.titulo-segundo.color-secundario
@@ -214,14 +213,14 @@
           .tarjeta.color-acento-botones.bg7.p-4(titulo="Retener")
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-10.col-10
-                img.img-a.img-t(src='@/assets/curso/tema2/img25.svg', alt='').mb-3
+                img.img-a.img-t(src='@/assets/curso/tema2/img25.png', alt='').mb-3
               .col-lg-8.col-md-12.col-12
                 p.mb-4 El producto no debe de perder ninguno de sus atributos físicos.
           
           .tarjeta.color-acento-botones.bg7.p-4(titulo="Práctico")
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-10.col-10
-                img.img-a.img-t(src='@/assets/curso/tema2/img26.svg', alt='').mb-3
+                img.img-a.img-t(src='@/assets/curso/tema2/img26.png', alt='').mb-3
               .col-lg-8.col-md-12.col-12
                 p.mb-4 El empaque perfecto debe ser práctico. En pocas palabras, es aquel que disminuye tiempo de empaquetado porque se arma, se llena y se cierra fácil.
 
@@ -266,22 +265,22 @@
     p.mb-4 El #[b embalaje primario es la primera carta de presentación del producto, ayudando a impulsar la compra.] Un embalaje atractivo puede ofrecer una ventaja competitiva al destacar frente a otros productos en el mercado.
     p.mb-4 A continuación, se presentan algunos ejemplos: 
     
-    .row.justify-content-center(data-aos="fade-down").mb-4
+    .row.justify-content-center.align-items-center(data-aos="fade-down").mb-4
       .col-md-6.col-lg-4.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img27.svg' alt='')
           .tarjeta.bg35.p-4
-            h5.text-center.my-5 El tarro de plástico de una crema hidratante.
+            p.text-center.my-5 #[b El tarro de plástico de una crema hidratante.]
       .col-md-6.col-lg-4.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img28.svg' alt='')
           .tarjeta.bg34.p-4
-            h5.text-center.my-5 La lata de un refresco.
+            p.text-center.my-5 #[b La lata de un refresco.]
       .col-md-6.col-lg-4.mb-3
         .tarjeta-avatar
           img.my-2(src='@/assets/curso/tema2/img29.svg' alt='')
           .tarjeta.bg34.p-4
-            h5.text-center.my-5 La botella de vidrio que contiene un vino.
+            p.text-center.my-5 #[b La botella de vidrio que contiene un vino.]
 
         
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
@@ -319,14 +318,14 @@
         img(src='@/assets/curso/tema2/iconot.svg', alt='')
         h3.mb-0.ms-2 Embalaje terciario
     
-    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 El embalaje terciario agrupa productos que ya poseen embalaje primario y secundario. Permite consolidar cargas de productos de forma segura y facilita su manejo. Las empresas utilizan este tipo de embalaje en sus procesos de distribución y envíos, independientemente del tipo de producto. Un ejemplo común es la paletización, donde se organizan diferentes cajas de productos con separadores y plástico envolvente .
-        .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+        .row.justify-content-center.mb-2
           .col-lg-12.col-md-12.col-12
             .cajon.color-secundario.p-4
               p.mb-0 Los tres tipos de embalaje guardan una estrecha relación entre ellos y con los distintos eslabones de la cadena de suministro. El embalaje primario está más relacionado con los consumidores finales, mientras que el secundario y el terciario se utilizan principalmente en los procesos de distribución entre fabricantes y distribuidores. 
-      .col-lg-4.col-md-9.col-9
+      .col-lg-4.col-md-7.col-7
         img(src="@/assets/curso/tema2/img32.png")
 
 
