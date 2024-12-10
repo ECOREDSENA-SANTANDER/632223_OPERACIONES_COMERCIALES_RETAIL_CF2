@@ -165,60 +165,64 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: 'Gaviria F., (2018). Manual escalado masculino',
-      tipo: 'Documento',
+      tema: 'Almacenamiento',
+      referencia:
+        'Mauleón Torres, M. (2003). Sistemas de almacenaje y picking. Madrid, Spain: Ediciones Díaz de Santos.',
+      tipo: 'Libro',
       link:
-        'https://drive.google.com/file/d/1GnLvwC-1bOnwNcVlXfKcsaA3PzQ4x1lW/view?usp=sharing',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62786?page=239.',
+    },
+    {
+      tema: 'Recibo - Despacho',
+      referencia:
+        'Mora García, L. (2010). Gestión logística integral: Las mejores prácticas en la cadena de abastecimiento. Ecoe Ediciones.',
+      tipo: 'Revista',
+      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/29965',
+    },
+    {
+      tema: 'Picking y Packing',
+      referencia:
+        'Núñez Carballosa, A., Guitart Tarrés, L., & Baraza Sánchez, X. (2014). Dirección de operaciones: Decisiones tácticas y estratégicas.',
+      tipo: 'Libro',
+      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/30102',
+    },
+    {
+      tema: 'Cubicaje',
+      referencia:
+        'Soluciones Logísticas y Aduaneras E & S (2020). Cubicaje de mercancía en contenedor.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=-3pEFK6hp2A',
     },
   ],
   referencias: [
     {
       referencia:
-        'Gutiérrez, L., Moncayo, A., Tanaka, K., Kimura, F., Moreno, D. (2011). Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje SENA.',
+        'Carro Lupardo, E. (2016). Preparación de pedidos (transversal) (MF1326_1). Madrid, Spain: Editorial CEP, S.L.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/51055',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-      link:
-        'https://www.harpersbazaar.mx/belleza/salud-y-bienestar/la-ropa-que-eliges-afecta-a-tu-estado-de-animo-y-cerebro-segun-expertos/',
+        'Castellano Ramírez, A. (2015). Logística comercial internacional. Universidad del Norte.',
+      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/37553',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA.',
+        'Flamarique, S. (2019). Manual de gestión de almacenes. Barcelona, Marge Books.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/111434?page=20',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Gómez Aparicio, J. M. (2013). Gestión logística y comercial. Aravaca, Madrid, Spain: McGraw-Hill España.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000063748',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50240?page=87',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA.  ',
+        'Soler, D. (2017). Unidades de carga en el transporte (2a. ed.). Barcelona, Spain: Marge Books.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
-    },
-    {
-      referencia:
-        'Vélez, M., García M., Hincapié L. (1996). Patronaje y escalado línea interior y deportiva. Servicio Nacional de Aprendizaje SENA. ',
-      link: 'https://repositorio.sena.edu.co/handle/11404/4811',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/43753?page=35',
     },
   ],
   creditos: [

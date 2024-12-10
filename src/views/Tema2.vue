@@ -152,7 +152,7 @@
             h4.mb-3.text-center Conservar el producto durante más tiempo.
           .col-lg.col-md-6.col-6
             img.img-a.img-t(src='@/assets/curso/tema2/uli.svg', alt='').mb-3
-            h4.mb-3.text-center Conservar el producto durante más tiempo.
+            h4.mb-3.text-center Transportar más fácilmente el producto.
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-9.col-md-12.col-12
             ul.lista-ul.ps-0
